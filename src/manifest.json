@@ -1,7 +1,7 @@
 {
     "manifest_version" : 2,
-    "name" : "WolframAlpha Search Engine",
-    "description" : "Adds search engine that asks wolframalpha.com",
+    "name" : "000 Search Engine",
+    "description" : "Adds search engine that asks 000.com",
     "version" : "1.1.0",
     "icons": {
         "48": "icon.svg",
@@ -15,11 +15,11 @@
     "chrome_settings_overrides" : {
        "search_provider" : {
           "encoding" : "UTF-8",
-          "favicon_url" : "https://www.wolframalpha.com/favicon.ico",
+          "favicon_url" : "https://000.web.id/assets/img/favicon.png",
           "is_default" : false,
           "keyword" : "=",
-          "name" : "Wolfram|Alpha",
-          "search_url" : "https://www.wolframalpha.com/input/?i={searchTerms}"
+          "name" : "000|Alpha",
+          "search_url" : "https://000.web.id/?q={searchTerms}"
        }
     }
  }
