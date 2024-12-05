@@ -1,11 +1,11 @@
 {
-    "manifest_version" : 2,
-    "name" : "000 Search Engine",
-    "description" : "Adds search engine that asks 000.com",
-    "version" : "1.1.0",
+    "manifest_version" : 1,
+    "name" : "Plipeo Search Engine",
+    "description" : "Smart, safe and kid-friendly search engine designed to provide the best search results.",
+    "version" : "1.0.0",
     "icons": {
-        "48": "icon.svg",
-        "96": "icon.svg"
+        "48": "plipeo-icon-fox.svg",
+        "96": "plipeo-icon-fox.svg"
     },
     "browser_specific_settings" : {
        "gecko" : {
@@ -15,11 +15,11 @@
     "chrome_settings_overrides" : {
        "search_provider" : {
           "encoding" : "UTF-8",
-          "favicon_url" : "https://000.web.id/assets/img/favicon.png",
-          "is_default" : false,
+          "favicon_url" : "https://plipeo.com/assets/img/ico/apple-icon-180x180.png",
+          "is_default" : yes,
           "keyword" : "=",
-          "name" : "000|Alpha",
-          "search_url" : "https://000.web.id/?q={searchTerms}"
+          "name" : "Plipeo",
+          "search_url" : "https://plipeo.com/?q={searchTerms}"
        }
     }
  }
